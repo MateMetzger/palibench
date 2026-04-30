@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated PaliBench article once published."
+title: "PaliBench Reproducibility Package"
+authors:
+  - family-names: "Metzger"
+    given-names: "Máté"
+  - family-names: "Phophichit"
+    given-names: "Nadnapang"
+date-released: 2026-04-30
+type: dataset
+abstract: "Copyright-conscious reproducibility artifacts for PaliBench, a multi-reference benchmark and reusable method for classical language translation evaluation."
+keywords:
+  - digital humanities
+  - machine translation
+  - Pali
+  - classical languages
+  - benchmark
+license: "CC-BY-4.0"
+

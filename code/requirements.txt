@@ -1,0 +1,6 @@
+numpy
+requests
+python-dotenv
+tiktoken
+sacrebleu
+unbabel-comet

@@ -1,0 +1,29 @@
+Creative Commons Attribution 4.0 International License
+
+Copyright (c) 2026 PaliBench Contributors
+
+This reproducibility package is licensed under the Creative Commons
+Attribution 4.0 International License, except where otherwise noted.
+
+This license applies to the package metadata, code, prompts, and derived
+metrics created by the PaliBench contributors. It does not grant rights to
+third-party source texts or human reference translations. Those materials are
+not included in this package and remain subject to their respective licenses,
+publishers, platforms, and rights holders.
+
+The human reference translations used in the private/local benchmark are
+freely accessible online from their providers under different terms:
+
+- Bhikkhu Sujato / SuttaCentral translations: Creative Commons Zero (CC0).
+- Thanissaro Bhikkhu translations: Creative Commons Attribution-NonCommercial 4.0.
+- Bhikkhu Bodhi / Wisdom Publications translations: Creative Commons
+  Attribution-NonCommercial-NoDerivs 3.0 Unported.
+
+Because the Bodhi materials include a NoDerivs condition, and because aligned
+full-text extraction may be considered a derivative or adapted form, this
+public package excludes all human translation text and aligned human-reference
+files. Availability from a cited source does not imply permission to
+redistribute aligned full-text copies.
+
+To view a copy of CC BY 4.0, visit:
+https://creativecommons.org/licenses/by/4.0/

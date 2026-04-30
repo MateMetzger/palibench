@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Keep the public package free of restricted full-text benchmark artifacts.
+data/
+source/
+results/outlier_reviews/
+*.npz

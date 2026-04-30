@@ -1,0 +1,13 @@
+Translate the following Pali passages into English.
+Return a JSON object with the same keys and the English translations as values.
+Do not add text that is not present in the input.
+
+IMPORTANT: For valid JSON, never use double quotes inside translation values.
+- Use single quotes for dialogue: 'Hello,' he said.
+- Use backticks for nested quotes: 'He said `hello` to me.'
+
+Example:
+Input: {"mn1:5": "Pathavī pathavīti sañjānāti.", "mn1:6": "Āpo āpoti sañjānāti."}
+Output: {"mn1:5": "They perceive earth as earth.", "mn1:6": "They perceive water as water."}
+
+Output ONLY the JSON object, no other text.

@@ -1,0 +1,172 @@
+{
+  "name": "PaliBench reproducibility package",
+  "description": "Copyright-conscious reproducibility artifacts for the PaliBench paper.",
+  "excluded": [
+    "data/test_set.json: contains full Pali passages and human reference translations",
+    "data/reference_embeddings.npz: embeddings derived from full human reference translations",
+    "results/outlier_reviews/*.json: contains full Pali, human references, and model output snippets",
+    "source/*: raw source and aligned translation files, including copyright-sensitive materials"
+  ],
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 632
+    },
+    {
+      "path": "DATA_AVAILABILITY.md",
+      "bytes": 3127
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1428
+    },
+    {
+      "path": "README.md",
+      "bytes": 3522
+    },
+    {
+      "path": "REPRODUCING.md",
+      "bytes": 1403
+    },
+    {
+      "path": "code/pipeline/align_v2.py",
+      "bytes": 18661
+    },
+    {
+      "path": "code/pipeline/filter_corpus_v2.py",
+      "bytes": 29921
+    },
+    {
+      "path": "code/pipeline/generate_outlier_review.py",
+      "bytes": 7625
+    },
+    {
+      "path": "code/pipeline/verify_alignment.py",
+      "bytes": 19567
+    },
+    {
+      "path": "code/requirements.txt",
+      "bytes": 68
+    },
+    {
+      "path": "code/scripts/benchmark_embed_references.py",
+      "bytes": 8406
+    },
+    {
+      "path": "code/scripts/benchmark_evaluate.py",
+      "bytes": 23218
+    },
+    {
+      "path": "code/scripts/benchmark_translate.py",
+      "bytes": 28740
+    },
+    {
+      "path": "metadata/metadata.json",
+      "bytes": 88843
+    },
+    {
+      "path": "metadata/passage_manifest.csv",
+      "bytes": 157340
+    },
+    {
+      "path": "metadata/reference_embeddings_meta.json",
+      "bytes": 27446
+    },
+    {
+      "path": "prompts/alignment_prompt.txt",
+      "bytes": 2427
+    },
+    {
+      "path": "prompts/translation_prompt.txt",
+      "bytes": 613
+    },
+    {
+      "path": "results/aggregate_scores.csv",
+      "bytes": 14137
+    },
+    {
+      "path": "results/aggregate_scores.json",
+      "bytes": 30453
+    },
+    {
+      "path": "results/per_passage_scores/anthropic-claude-opus-4.5_reasoning-none_per_passage_scores.json",
+      "bytes": 964202
+    },
+    {
+      "path": "results/per_passage_scores/deepseek-deepseek-v3.2_reasoning-none_per_passage_scores.json",
+      "bytes": 964023
+    },
+    {
+      "path": "results/per_passage_scores/google-gemini-3-flash-preview_reasoning-none_per_passage_scores.json",
+      "bytes": 963581
+    },
+    {
+      "path": "results/per_passage_scores/google-gemini-3-pro-preview_reasoning-none_per_passage_scores.json",
+      "bytes": 963920
+    },
+    {
+      "path": "results/per_passage_scores/meta-llama-llama-3.3-70b-instruct_reasoning-none_per_passage_scores.json",
+      "bytes": 964660
+    },
+    {
+      "path": "results/per_passage_scores/moonshotai-kimi-k2.5_reasoning-none_per_passage_scores.json",
+      "bytes": 964209
+    },
+    {
+      "path": "results/per_passage_scores/openai-gpt-5.2_reasoning-none_per_passage_scores.json",
+      "bytes": 964552
+    },
+    {
+      "path": "results/per_passage_scores/qwen-qwen3-235b-a22b-2507_reasoning-none_per_passage_scores.json",
+      "bytes": 964144
+    },
+    {
+      "path": "results/per_passage_scores/x-ai-grok-4.1-fast_reasoning-none_per_passage_scores.json",
+      "bytes": 964800
+    },
+    {
+      "path": "results/per_passage_scores/z-ai-glm-4.7_reasoning-none_per_passage_scores.json",
+      "bytes": 964843
+    },
+    {
+      "path": "results/translations/anthropic-claude-opus-4.5_reasoning-none.json",
+      "bytes": 803868
+    },
+    {
+      "path": "results/translations/deepseek-deepseek-v3.2_reasoning-none.json",
+      "bytes": 826028
+    },
+    {
+      "path": "results/translations/google-gemini-3-flash-preview_reasoning-none.json",
+      "bytes": 817057
+    },
+    {
+      "path": "results/translations/google-gemini-3-pro-preview_reasoning-none.json",
+      "bytes": 782505
+    },
+    {
+      "path": "results/translations/meta-llama-llama-3.3-70b-instruct_reasoning-none.json",
+      "bytes": 767042
+    },
+    {
+      "path": "results/translations/moonshotai-kimi-k2.5_reasoning-none.json",
+      "bytes": 829494
+    },
+    {
+      "path": "results/translations/openai-gpt-5.2_reasoning-none.json",
+      "bytes": 878063
+    },
+    {
+      "path": "results/translations/qwen-qwen3-235b-a22b-2507_reasoning-none.json",
+      "bytes": 813780
+    },
+    {
+      "path": "results/translations/x-ai-grok-4.1-fast_reasoning-none.json",
+      "bytes": 821885
+    },
+    {
+      "path": "results/translations/z-ai-glm-4.7_reasoning-none.json",
+      "bytes": 817353
+    }
+  ]
+}
