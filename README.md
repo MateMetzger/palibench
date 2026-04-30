@@ -41,18 +41,3 @@ python3 palibench_reproducibility_package/build_package.py
 ```
 
 The script regenerates the sanitized metadata, aggregate results, per-passage scores, copied prompts, copied code, and model outputs.
-
-## Recommended Public Hosting
-
-Use a citable research repository for the archival package and a Git host for active code development.
-
-Recommended setup:
-
-- Archive release: Zenodo, OSF, or institutional repository with a DOI.
-- Code mirror: GitLab or GitHub.
-
-GitHub is suitable for the public working repository. For journal submission, the most important requirement is not the Git host itself but a stable, citable URL or DOI. A good workflow is to host this package on GitHub and archive a tagged release on Zenodo or OSF.
-
-## License
-
-The package metadata, code, prompts, and derived metrics may be released under the project license, subject to the rights of third-party source texts and model providers. The excluded source/reference texts remain under their respective rights holders and licenses.
