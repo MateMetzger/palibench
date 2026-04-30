@@ -32,7 +32,7 @@ For that reason, `data/test_set.json`, raw source files, aligned human-reference
 Researchers with lawful access to the source translations can reconstruct the full benchmark locally by:
 
 1. Obtaining the relevant Pali source texts and English translations from the cited sources.
-2. Running the alignment pipeline in `code/pipeline/align_v2.py` with the prompt in `prompts/alignment_prompt.txt`.
+2. Running the alignment pipeline in `code/pipeline/align.py` with the prompt in `prompts/alignment_prompt.txt`.
 3. Verifying alignments using `code/pipeline/verify_alignment.py`.
 4. Applying the filtering and deduplication pipeline in `code/pipeline/filter_corpus_v2.py`.
 5. Regenerating reference embeddings with `code/scripts/benchmark_embed_references.py`.

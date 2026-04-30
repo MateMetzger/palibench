@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Alignment V2: Segment-by-segment alignment with prompt caching.
+Alignment pipeline: segment-by-segment alignment with prompt caching.
 
 Processes one passage at a time, one translator at a time.
 Leverages OpenAI prompt caching for efficiency.

@@ -141,7 +141,7 @@ def copy_code_and_prompts() -> None:
         "scripts/benchmark_translate.py",
         "scripts/benchmark_embed_references.py",
         "scripts/benchmark_evaluate.py",
-        "pipeline/align_v2.py",
+        "pipeline/align.py",
         "pipeline/verify_alignment.py",
         "pipeline/filter_corpus_v2.py",
         "pipeline/generate_outlier_review.py",
